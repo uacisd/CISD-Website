@@ -1,0 +1,39 @@
+
+/* Upcoming Event Section */
+.event-section{
+    box-shadow: 0 1px 4px 0;
+    border-radius: 3px;
+    margin: 0.5%;
+    width: 23.5%;
+    float: left;
+    display:block;
+}
+/* image setting (size) */
+
+.event-section img {
+    height: 25vh;
+    width: 35vw;
+    max-width: 100%;
+}
+
+.tag {
+    border-radius: 8px;
+    text-align: center;
+    padding: 7px 20px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
