@@ -1,2 +1,4 @@
 # CISD Website
-Currently hosting on: http://199.116.235.181
+
+## Currently hosting on: http://www.uacisd.ca/ or http://199.116.235.181  
+
