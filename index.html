@@ -20,8 +20,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Pacifico|Open+Sans:700|Montserrat|Calligraffitti|Ubuntu:400|Inconsolata|Oswald:300,400,500,600,700|Thasadith|Montserrat:300,400,700" rel="stylesheet">
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
-		</script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	</head>
 	<!-- main content -->
 	<body>
@@ -31,8 +35,8 @@
 		<header>
 			<!-- Navbar -->
 			<nav>
-			   <div id="navigation" class="row clearfix nav_black">
-			      <h2 id="navlogo" class="logo">Chinese International Society Development</h2>
+			   <div id="navigation" class="nav-row clearfix nav_black">
+			      <h2 id="navlogo" class="white nav-logo">Chinese International Society Development</h2>
 			      <ul id="navul" class="main-nav">
 			          <li><a href="#about" class="click1">About</a></li>
 			          <li><a href="#event" class="click2">Event</a></li>
@@ -42,7 +46,7 @@
 			   </div>
 			</nav>
 			<!-- home page title -->
-			<div class="main-content-header">
+			<div class="main-content-header white">
 				<div class="slideshow">
 				<div class="slides">
 					<div class="slide slide--current">
@@ -114,6 +118,7 @@
 		</header>
 		<!-- About Section -->
 		<section id="about" class="about-section">
+			
 			<div class="left-about">
 				<div class="left-about-1" style="background: #CFCFCF;"></div>
 				<div class="left-about-2" style="background-image: url(./Image/bbb.jpg)"></div>
@@ -128,7 +133,10 @@
 					</div>
 				</div>
 			</div>
+			
 		</section>
+
+
 		<!-- <section  class="about_dec">
 			<div class="about-left">
 				<h1 class="section-title-1">Who</h1>
@@ -160,10 +168,53 @@
 		</section> -->
 
 		<!-- Upcoming Event Section -->
+		<section id="services" class="section-bg">
+			<div class="container-fluid text-center">
+				<div class="section-header">
+					<h3>Services</h3>
+					<p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-xl-3 wow bounceInUp my-lg-3 my-md-3 my-sm-5 my-3" data-wow-duration="1.4s">
+						<div class="box">
+							<img class="img-fluid" src="Image/bg2.jpg" alt="">
+							<h4 class="title"><a href="">Lorem Ipsum</a></h4>
+							<p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 wow bounceInUp my-lg-3 my-md-3 my-sm-5 my-3" data-wow-duration="1.4s">
+						<div class="box">
+							<div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i>
+							</div>
+							<h4 class="title"><a href="">Dolor Sitema</a></h4>
+							<p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 wow bounceInUp my-lg-3 my-md-3 my-sm-5 my-3" data-wow-delay="0.1s" data-wow-duration="1.4s">
+						<div class="box">
+							<div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i>
+							</div>
+							<h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+							<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 wow bounceInUp my-lg-3 my-md-3 my-sm-5 my-3" data-wow-delay="0.1s" data-wow-duration="1.4s">
+						<div class="box">
+							<div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i>
+							</div>
+							<h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+							<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
 		<section class="upcoming_dec">
 			<div class="upcoming-title">
 
-				<h1>UPCOM<span style= "text-decoration:underline;text-decoration-color:#ff0000;">ING</span> EVENT</h1>
+				<h1>UPCOMING EVENT</h1>
 
 
 			</div>
@@ -219,5 +270,9 @@
 		<script src="./JS/Vendor/greensock.js"></script>
 		<script src="./JS/HomePage/HomePage.js"></script>
 		<script src="./JS/HomePage/imageslide.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+		 <script type="text/javascript">
+		   new WOW().init();
+		 </script>
 	</body>
 </html>

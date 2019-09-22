@@ -227,7 +227,7 @@
 			if($(window).scrollTop()>=80){
 				// $('#navigation').addClass('nav_black');
 				$('#navul').css({ "margin-top" : "6px" });
-				$('#navlogo').css({ "margin-top" : "2px" });
+				$('#navlogo').css({ "margin-top" : "10px" });
 				$('#navigation').css({ "color" : "white" });
 				$("ul li a").css({ "color" : "white" });
 			}

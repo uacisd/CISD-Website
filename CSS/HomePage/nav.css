@@ -3,7 +3,7 @@
  */
 
 
-.row{
+.nav-row{
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -23,7 +23,7 @@
 }
 
 
-.logo{
+.nav-logo{
 	text-align: center;
 	position: relative;
 	height: auto;
