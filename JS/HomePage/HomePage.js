@@ -3,6 +3,7 @@
  */
 
 {	
+	isActive = true;
 	const DOM = {};
 	DOM.click1 = document.querySelector('.click1');
 	DOM.click2 = document.querySelector('.click2');
