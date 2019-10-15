@@ -19,6 +19,28 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #1bb1dc;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+}
+
 .th {
 	 object-fit: none; /* Do not scale the image */
   object-position: center; /* Center the image within the element */
