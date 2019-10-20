@@ -287,7 +287,7 @@ body{
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.99);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -422,9 +422,9 @@ body{
 
 .header_title h1{
 	font-family: 'Oswald', sans-serif;
-	letter-spacing: 5px;
+	letter-spacing: 5pt;
 	font-weight: 400;
-	font-size: 287px;
+	font-size: 170pt;
 	text-align: center;
 }
 
@@ -441,8 +441,8 @@ body{
 
 .theme{
 	width: max-content;
-	word-spacing: 60px;
-	font-size: 31px;
+	word-spacing: 25pt;
+	font-size: 25pt;
 	font-family: 'Thasadith', sans-serif;
 }
 
@@ -464,10 +464,10 @@ body{
       text-transform: uppercase;
       color: black;
       transform: translate(-50%, -50%);
-      font-size: 25px;
+      font-size: 16pt;
       text-align: center;
       font-weight: bolder;
-      letter-spacing: 5px;
+      letter-spacing: 5pt;
       width: max-content;
 }
 
@@ -755,83 +755,6 @@ body{
 
 
 
-/*********/
-
- .section-bg{
-      /*background: #fff;*/
-      background: #f5f8fd;
-    }
-    .section-header h3{
-      font-size: ;
-      color: ;
-      text-align: center;
-      font-weight: ;
-      font-family: ;
-    }
-    .section-header p{
-      margin: auto;
-      width: 50%;
-      padding-bottom: 60px;
-      text-align: center;
-    }
-    #services {
-      padding: 60px 0 40px 0;
-    }
-
-    #services .box {
-      height: 100%;
-      padding: 10px;
-      position: relative;
-      overflow: hidden;
-      border-radius: 10px;
-      background: #fff;
-      box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-      transition: all 0.3s ease-in-out;
-      text-align: center;
-    }
-
-    #services .box:hover {
-      -webkit-transform: scale(1.01);
-      transform: scale(1.05);
-    }
-
-    #services .icon {
-      margin: 0 auto 15px auto;
-      padding-top: 12px;
-      display: inline-block;
-      text-align: center;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-    }
-
-    #services .icon i {
-      font-size: 36px;
-      line-height: 1;
-    }
-
-    #services .title {
-      font-weight: 700;
-      margin-bottom: 15px;
-      font-size: 18px;
-    }
-
-    #services .title a {
-      color: #111;
-    }
-
-    #services .box:hover .title a {
-      color: #1bb1dc;
-    }
-
-    #services .description {
-      color: black;
-      font-size: 14px;
-      line-height: 28px;
-      margin-bottom: 0;
-      text-align: left;
-    }
-
 
 /* album Section
 --------------------------------*/
@@ -840,14 +763,14 @@ body{
 	word-spacing: 10px;
 	font-weight: 600;
 	line-height: 1.3;
-	font-size: 50pt;
+	font-size: 40pt;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	}
 
     #album {
       padding: 20px 0;
-      background-color: yellow;
+      background-color: #f5f8fd;
     }
 
     #album .album-wrap {
@@ -990,6 +913,16 @@ body{
 		align-items: flex-start;
 	}
 
+	footer a {
+		text-decoration: none;
+		color: whitesmoke;
+	}
+
+	footer a:hover {
+		text-decoration: underline;
+		color: whitesmoke;
+	}
+
 	.footer-title{
 		position: absolute;
 		top: 50%;
@@ -1016,7 +949,6 @@ body{
 		font-size:14px;
 		line-height: 28px;
 		margin-bottom: 0;
-		text-align: left;
 		font-weight:bold;
 	}
 	
@@ -1029,17 +961,11 @@ body{
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-basis:300px;
-		text-align: left;
+		text-align: center;
 		padding:0px 0px 25px 0px;
-	}
-
-	.footer-colum {
-		color:whitesmoke;
 		font-size:14px;
 		line-height: 28px;
 		margin-bottom: 0;
-		text-align: left;
-		text-decoration: underline;
 	}
 
 	.footer-divider {

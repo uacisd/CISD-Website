@@ -245,21 +245,7 @@
 		var aboutTop = $('.about-section').offset().top;
 
 		$(window).on('scroll', function(){
-			// if($(window).scrollTop()>=80){
-			// 	// $('#navigation').addClass('nav_black');
-			// 	$('#navul').css({ "margin-top" : "6px" });
-			// 	$('#navlogo').css({ "margin-top" : "10px" });
-			// 	$('#navigation').css({ "color" : "white" });
-			// 	$("ul li a").css({ "color" : "white" });
-			// }
-			// if($(window).scrollTop()<80){
-			// 	// $('#navigation').removeClass('nav_black'); 
-			// 	$('#navul').css({ "margin-top" : "35px" });
-			// 	$('#navlogo').css({ "margin-top" : "35px" });
-			// 	$('#navigation').css({ "color" : "white" });
-			// 	$("ul li a").css({ "color" : "white" });					
-			// }
-			if ($(window).scrollTop()>aboutTop-100){
+			if ($(window).scrollTop()>aboutTop-100 && $(window).width() > 700){
 				TweenMax.to(".left-about-1", 1.0, {
 				 	top: "0%",
 				 	opacity: "1"
