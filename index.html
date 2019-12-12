@@ -53,7 +53,7 @@
 		        <li><a href="#footer">Volunteer</a></li>
 		      </ul>
 		    </nav><!-- .main-nav -->
-		    
+
 		  </div>
 		</header><!-- #header -->
 
@@ -69,7 +69,7 @@
 							<h1 class="title1">UACISD</h1>
 							<p class="theme mx-auto"><strong>VOLUNTEER STUDY LEADERS EXPERIENCE</strong></p>
 						</div>
-						
+
 					</div>
 					<div class="slide">
 						<div class="slide__img" style="background-image: url(Image/b2.jpg);">
@@ -130,7 +130,7 @@
 		</section>
 
 		<!-- About Section -->
-		<section id="about" class="about-section">
+		<!-- <section id="about" class="about-section">
 			<div class="left-about">
 				<div class="left-about-1" style="background: #CFCFCF;"></div>
 				<div class="left-about-2" style="background-image: url(./Image/bbb.jpg)"></div>
@@ -145,7 +145,32 @@
 					</div>
 				</div>
 			</div>
-			
+
+		</section> -->
+
+		<!-- Volunteer Section -->
+		<section id="volunteer" class="volunteer-section">
+		  <div class="container-fluid">
+
+		  	<!-- Title and Underline -->
+		    <div class="section-header my-5">
+		      <h3 class="upcoming-event-title">VOLUNTEER</h3>
+		      <div class="underline3 mx-auto"></div>
+		    </div>
+				<!-- Title and Underline End -->
+		    <!-- Picture -->
+		    <div class="row">
+		      <div class="col-sm-6 wow bounceInUp">
+						<img src="Image/bbb.jpg" class="img-fluid" alt="">
+					</div>
+				<!-- Content -->
+		      <div class="col-sm-6 volunteer-info wow bounceInUp">
+						<p>CISD is a bridge between students and local communities to facilitate meaningful interactions and relationships. Our purpose is to learn from the community, explore the potential of students, enrich the students’ experience in Canadian society, and work towards common development between students and society.</p>
+		      </div>
+		     </div>
+				 <br />
+				 <br />
+		    </div>
 		</section>
 
 		<!-- Upcoming Event Section -->
@@ -232,7 +257,7 @@
 		<!-- Contact Section -->
 		<section>
 		</section>
-		
+
 		<!-- Footer Section -->
 		<footer>
 			<div class="footer-colum-wrapper">
@@ -260,7 +285,7 @@
 			<div class="footer-copyright">
 				<h6>10811-47ave,Edmonton, AB T6H5J2,Canada   </h6>
 				<h6>We are located on Treaty 6 / Métis Territory.</h6>
-			</div> 
+			</div>
 		</footer>
 
 		<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -346,11 +371,11 @@
 
 			$(window).on('scroll', function () {
 			  var cur_pos = $(this).scrollTop();
-			
+
 			  nav_sections.each(function() {
 			    var top = $(this).offset().top - main_nav_height,
 			        bottom = top + $(this).outerHeight();
-			
+
 			    if (cur_pos >= top && cur_pos <= bottom) {
 			      main_nav.find('li').removeClass('active');
 			      main_nav.find('a[href="#'+$(this).attr('id')+'"]').parent('li').addClass('active');

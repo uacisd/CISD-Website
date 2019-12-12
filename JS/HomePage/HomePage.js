@@ -1,8 +1,8 @@
 /*
- * Home page js 
+ * Home page js
  */
 
-{	
+{
 	new WOW().init();
 
 	// Back to top button
@@ -21,7 +21,7 @@
 	// JQuery code
 	$(document).ready(function() {
 
-		var aboutTop = $('.about-section').offset().top;
+		var aboutTop = $('.volunteer-section').offset().top;
 
 		$(window).on('scroll', function(){
 			if ($(window).scrollTop()>aboutTop-100 && $(window).width() > 700){
@@ -40,7 +40,7 @@
 				TweenMax.to(".right-about-2", 0.9, {
 					delay: 1,
 				 	top: "0%"
-				 	
+
 				});
 			}
 
@@ -57,7 +57,7 @@
 		 	ease: Expo.easeInOut
 		});
 		///////////
-		
+
 	});
 
 }
