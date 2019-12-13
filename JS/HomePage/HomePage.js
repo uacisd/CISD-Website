@@ -46,12 +46,12 @@
 
 		});
 
-		TweenMax.to(".overlay h1", 5, {
+		TweenMax.to(".overlay h1", 3, {
 			opacity: 0,
 		 	y: -60,
 		 	ease: Expo.easeInOut
 		});
-		TweenMax.to(".overlay", 6, {
+		TweenMax.to(".overlay", 4, {
 		 	delay: 1,
 		 	top: "-140%",
 		 	ease: Expo.easeInOut
