@@ -129,8 +129,10 @@
 			</div>
 		</section>
 
+
+		<section id="about">
 		<!-- About Section -->
-		<section id="about" class="about-section">
+		<section id="about-lg" class="about-section">
 			<div class="left-about">
 				<div class="left-about-1" style="background: #CFCFCF;"></div>
 				<div class="left-about-2" style="background-image: url(./Image/bbb.jpg)"></div>
@@ -147,6 +149,39 @@
 			</div>
 			
 		</section>
+
+		<!-- About Section -->
+		<section id="about-sm">
+		    <div class="container my-5">
+		        <div class="row">
+		            <div class="col-lg-12 text-center my-5">
+		                <img src="Image/logo.png" class="text-center" style="width: 100%">
+		                <h4 class="section-subheading text-muted">Chinese International Students Developement Society </h4>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-lg-6">
+		                <p>CISD is a bridge between students and local communities to facilitate meaningful interactions and relationships. Our purpose is to learn from the community, explore the potential of students, enrich the students’ experience in Canadian society, and work towards common development between students and society.</p>
+		            </div>
+		            <div class="col-lg-6">
+		                <p>中国留学生发展协会（前中华济世慈悲青年组）致力于引领华人留学生群体参与社会活动、提高学术水平、寻找就业机会。我们将学生群体引往学业上的辉煌、事业上的成功，促进自我完善与融入社会。我还能再撑一会儿，编不出来了，谁来多说一点啊啊啊啊，撑不下去了，没话说了啊。好吧字数还没够，那我就再说点什么废话。哎谁来说点什么在这里，最好能保持和左边的英文等高。</p>
+		            </div>
+		            <!-- <div class="col-lg-12 text-center contact-group">
+		                <a href="#about" class="btn btn-lg btn-outline" data-toggle="popover" data-trigger="hover" data-placement="top" title="微信公众号 | Wechat" data-content="请微信公众号搜索CISD，关注我们以获得最新信息">
+		                    <i class="fa fa-weixin fa-lg"></i>
+		                </a>
+		                <a href="https://www.facebook.com/groups/uacbc/" class="btn btn-lg btn-outline">
+		                    <i class="fa fa-facebook fa-lg"></i>
+		                </a>
+		                <a href="#about" class="btn btn-lg btn-outline" data-toggle="popover" data-trigger="hover" data-placement="top" title="Email | 邮箱地址" data-content="uacisd@gmail.com">
+		                    <i class="fa fa-envelope fa-lg"></i>
+		                </a>
+		            </div> -->
+		        </div>
+		    </div>
+		</section>
+		</section>
+
 
 		<!-- Upcoming Event Section -->
 		<section id="album">
@@ -280,15 +315,19 @@
 		<script src="JS/HomePage/HomePage.js"></script>
 		<script>
 			if ($(window).width() < 700){
-				$("#about").hide();
+				$("#about-lg").hide();
+				$("#about-sm").show();
 			} else {
-				$("#about").show();
+				$("#about-lg").show();
+				$("#about-sm").hide();
 			}
 			$(window).resize(function() {
 				if ($(window).width() < 700){
-					$("#about").hide();
+					$("#about-lg").hide();
+					$("#about-sm").show();
 				} else {
-					$("#about").show();
+					$("#about-lg").show();
+					$("#about-sm").hide();
 				}
 			});
 			// Header scroll class

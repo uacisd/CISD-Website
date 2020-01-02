@@ -370,10 +370,10 @@ body{
 }
 
 .arrow-pre:hover.previous{
-	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	/*-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	        transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	-webkit-transform: translate3d(-15px, 5px, 0);
-	        transform: translate3d(-15px, 5px, 0);
+	        transform: translate3d(-15px, 5px, 0);*/
 }
 
 .arrow-pre,.arrow-next{
@@ -382,10 +382,10 @@ body{
 }
 
 .arrow-next:hover.next{
-	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	/*-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	        transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	-webkit-transform: translate3d(15px, 5px, 0) rotate(180deg);
-          	transform: translate3d(15px, 5px, 0) rotate(180deg);
+          	transform: translate3d(15px, 5px, 0) rotate(180deg);*/
 }
 
 .arrow-next{
